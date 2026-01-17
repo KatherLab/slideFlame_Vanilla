@@ -1,7 +1,6 @@
-# 🧬 PathoMozhi: A Flamingo-Style Vision-Language Model for Histopathology
+# 🧬 SlideFlame-Vanilla: A Flamingo-Style Vision-Language Model for Histopathology
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Model on HuggingFace](https://img.shields.io/badge/HuggingFace-oyemainhun/pathoMozhi-yellow.svg)](https://huggingface.co/oyemainhun/pathoMozhi)
 
 > **License**: This repository is licensed under the [MIT License](LICENSE).
 
@@ -9,7 +8,7 @@
 
 ## 🚀 Overview
 
-**PathoMozhi** is a Flamingo-inspired [4] vision-language model tailored for digital pathology. It integrates a pretrained language model (BioGPT-Large) with visual context from whole-slide image (WSI) features using gated cross-attention layers.  
+**SlideFlame-Vanilla** is a Flamingo-inspired [4] vision-language model tailored for digital pathology. It integrates a pretrained language model (BioGPT-Large) with visual context from whole-slide image (WSI) features using gated cross-attention layers.  
 
 ---
 
@@ -17,7 +16,7 @@
 
 ### 2.1 Flamingo-style VLM inspired by PRISM and HistoGPT
 
-We implement a vision-language architecture inspired by recent models such as **PRISM** [1] and **HistoGPT** [2]. A pretrained language model (**BioGPT-Large**) [5] is augmented with cross-attention layers to receive context from WSI-derived image features.
+We implement a vision-language architecture inspired by recent models such as **PRISM** [1] and **HistoGPT** [2]. A pretrained language model (**BioGPT**) [5] is augmented with cross-attention layers to receive context from WSI-derived image features.
 
 ### 2.2 Patch-level MIL using CONCHv1.5 features
 
