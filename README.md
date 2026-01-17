@@ -34,6 +34,6 @@ Rather than using raw image pixels, we extract **patch-level features** using th
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/Srividhya-Sainath/pathoMozhi.git
-cd pathoMozhi
+git clone [https://github.com/KatherLab/slideFlame_Vanilla.git]
+cd slideFlame_Vanilla
 pip install .
